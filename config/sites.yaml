@@ -1,0 +1,5 @@
+# config/sites.yaml
+sites:
+  - name: "The Body Shop AU"
+    key: "thebodyshop"
+    url: "https://www.thebodyshop.com.au/special-offers"
