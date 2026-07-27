@@ -1,1 +1,98 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background: #050816;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
+}
+
+.main {
+  flex: 1;
+  padding: 24px 32px;
+  overflow-y: auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #020617;
+  border-radius: 12px;
+  padding: 16px 18px;
+  border: 1px solid #1f2937;
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-bottom: 12px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 16px;
+}
+
+.label {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.value {
+  font-size: 13px;
+}
+
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 8px 6px;
+  border-bottom: 1px solid #111827;
+}
+
+.projects-table th {
+  text-align: left;
+  color: #9ca3af;
+}
+
+.primary-button {
+  background: #7c3aed;
+  color: white;
+  border-radius: 999px;
+  border: none;
+  padding: 8px 16px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.icon-button {
+  background: #020617;
+  border-radius: 999px;
+  border: 1px solid #1f2937;
+  color: #9ca3af;
+  padding: 6px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+}
 
