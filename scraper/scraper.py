@@ -48,13 +48,7 @@ def scrape_site(site: dict, min_discount: int = 30) -> list[dict]:
     return items
 
 
-def write_outputs(
-    output_dir: Path | str,
-    data_dir: Path | str,
-    site_key: str,
-    items: list[dict],
-    all_items: list[dict] | None = None,
-) -> None:
+def write_site_outputs(output_dir: Path | str, data_dir: Path | str, site_key: str, items: list[dict]) -> None:
     output_dir = Path(output_dir)
     data_dir = Path(data_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -63,9 +57,15 @@ def write_outputs(
     save_json(output_dir / f"{site_key}.json", items)
     save_json(data_dir / f"{site_key}.json", items)
 
-    if all_items is not None:
-        save_json(output_dir / "sale_data.json", {"items": all_items})
-        save_json(data_dir / "all_sites.json", {"items": all_items})
+
+def write_all_sites_output(output_dir: Path | str, data_dir: Path | str, all_items: list[dict]) -> None:
+    output_dir = Path(output_dir)
+    data_dir = Path(data_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    save_json(output_dir / "sale_data.json", {"items": all_items})
+    save_json(data_dir / "all_sites.json", {"items": all_items})
 
 
 def run(
@@ -83,10 +83,10 @@ def run(
 
     for site in sites:
         items = scrape_site(site, min_discount=min_discount)
-        write_outputs(output_dir, data_dir, site["key"], items, all_items=None)
+        write_site_outputs(output_dir, data_dir, site["key"], items)
         all_items.extend(items)
 
-    write_outputs(output_dir, data_dir, "sale_data", {"items": all_items}, all_items=all_items)
+    write_all_sites_output(output_dir, data_dir, all_items)
     return all_items
 
 
