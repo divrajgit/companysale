@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
 
 
-def normalize_price(text: str) -> float | None:
+def normalize_price(tag_text: str) -> float | None:
     try:
-        return float(text.replace("$", "").replace(",", "").strip())
+        return float(tag_text.replace("$", "").replace(",", "").strip())
     except ValueError:
         return None
 
@@ -14,19 +14,19 @@ def parse_items(html: str, min_discount: int, site_url: str | None) -> list[dict
     soup = BeautifulSoup(html, "html.parser")
     items: list[dict] = []
 
-    products = soup.select("div.product-item-info")
+    products = soup.select(".product-tile, .product-card, .product")
 
     for product in products:
-        name_tag = product.select_one("a.product-item-link")
-        price_old_tag = product.select_one("span.old-price .price")
-        price_new_tag = product.select_one("span.special-price .price")
+        name_tag = product.select_one(".product-name, .product-tile__name, .product-card__title, a")
+        price_new_tag = product.select_one(".price--special, .price--current")
+        price_old_tag = product.select_one(".price--rrp, .price--standard, .price--was, .price--strike")
 
         if not name_tag or not price_new_tag or not price_old_tag:
             continue
 
         name = name_tag.get_text(strip=True)
-        url = name_tag["href"]
-        if not url.startswith("http") and site_url:
+        url = name_tag.get("href", "")
+        if url and not url.startswith("http") and site_url:
             url = urljoin(site_url, url)
 
         new_price = normalize_price(price_new_tag.get_text(strip=True))
@@ -52,6 +52,7 @@ def find_next_page(soup: BeautifulSoup, current_url: str | None) -> str | None:
         "a[rel='next']",
         "a.next",
         "a[aria-label='Next']",
+        "button[aria-label='Next']",
         ".pagination__next a",
         ".pagination-next a",
     ]
@@ -95,7 +96,8 @@ def parse(html, min_discount=30, site_url=None):
     max_pages = 20
 
     while page_html and page_number <= max_pages:
-        items.extend(parse_items(page_html, min_discount, site_url))
+        page_items = parse_items(page_html, min_discount, site_url)
+        items.extend(page_items)
 
         soup = BeautifulSoup(page_html, "html.parser")
         next_url = find_next_page(soup, current_url)
@@ -115,9 +117,12 @@ def parse(html, min_discount=30, site_url=None):
         except requests.RequestException:
             break
 
+    # Remove duplicates by URL if a product appears on multiple pages.
     unique_items = {}
     for item in items:
-        key = item.get("url") or f"{item['name']}-{item['new_price']}"
-        unique_items[key] = item
+        if item.get("url"):
+            unique_items[item["url"]] = item
+        else:
+            unique_items[f"{item['name']}-{item['new_price']}"] = item
 
     return list(unique_items.values())

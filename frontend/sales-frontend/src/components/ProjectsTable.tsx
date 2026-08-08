@@ -12,17 +12,19 @@ export const ProjectsTable = ({ items }: any) => (
           <th>Old price</th>
           <th>New price</th>
           <th>Discount</th>
+          <th>Site</th>
           <th>Link</th>
         </tr>
       </thead>
 
       <tbody>
         {items.map((item: any) => (
-          <tr key={item.url}>
+          <tr key={`${item.url}-${item.site_key || item.site_name || item.name}`}>
             <td>{item.name}</td>
             <td>${item.old_price.toFixed(2)}</td>
             <td>${item.new_price.toFixed(2)}</td>
             <td>{item.discount_percent}%</td>
+            <td>{item.site_name || item.site_key || "Unknown"}</td>
             <td>
               <a href={item.url} target="_blank" rel="noreferrer">
                 View

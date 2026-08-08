@@ -14,19 +14,19 @@ def parse_items(html: str, min_discount: int, site_url: str | None) -> list[dict
     soup = BeautifulSoup(html, "html.parser")
     items: list[dict] = []
 
-    products = soup.select("div.product-item-info")
+    products = soup.select(".product-card, .product-item")
 
     for product in products:
-        name_tag = product.select_one("a.product-item-link")
-        price_old_tag = product.select_one("span.old-price .price")
-        price_new_tag = product.select_one("span.special-price .price")
+        name_tag = product.select_one("a.product-card__link, a.product-item__link")
+        price_new_tag = product.select_one(".price--current, .product-card__price--current")
+        price_old_tag = product.select_one(".price--rrp, .product-card__price--old, .product-card__price--was")
 
         if not name_tag or not price_new_tag or not price_old_tag:
             continue
 
         name = name_tag.get_text(strip=True)
-        url = name_tag["href"]
-        if not url.startswith("http") and site_url:
+        url = name_tag.get("href", "")
+        if url and not url.startswith("http") and site_url:
             url = urljoin(site_url, url)
 
         new_price = normalize_price(price_new_tag.get_text(strip=True))

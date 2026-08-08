@@ -5,11 +5,19 @@ from typing import Any
 import requests
 
 from parsers.thebodyshop import parse as parse_thebodyshop
+from parsers.supercheapauto import parse as parse_supercheapauto
+from parsers.woolworths import parse as parse_woolworths
+from parsers.automotivesuperstore import parse as parse_automotivesuperstore
+from parsers.coles import parse as parse_coles
 from utils.yaml_loader import load_sites
 from utils.json_store import save_json
 
 PARSERS = {
     "thebodyshop": parse_thebodyshop,
+    "supercheapauto": parse_supercheapauto,
+    "woolworths": parse_woolworths,
+    "automotivesuperstore": parse_automotivesuperstore,
+    "coles": parse_coles,
 }
 
 DEFAULT_OUTPUT_DIR = Path("frontend/sales-frontend/public/data")
@@ -25,16 +33,20 @@ def fetch_html(url: str) -> str:
     return response.text
 
 
-def scrape_site(site: dict, min_discount: int = 50) -> list[dict]:
+def scrape_site(site: dict, min_discount: int = 30) -> list[dict]:
     parser = PARSERS.get(site["key"])
     if parser is None:
         raise ValueError(f"No parser registered for site key: {site['key']}")
 
     html = fetch_html(site["url"])
-    return parser(html, min_discount=min_discount)
+    items = parser(html, min_discount=min_discount, site_url=site["url"])
+    for item in items:
+        item["site_name"] = site["name"]
+        item["site_key"] = site["key"]
+    return items
 
 
-def run(output_dir: Path | str = DEFAULT_OUTPUT_DIR, min_discount: int = 50) -> list[dict]:
+def run(output_dir: Path | str = DEFAULT_OUTPUT_DIR, min_discount: int = 30) -> list[dict]:
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -60,7 +72,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--min-discount",
         type=int,
-        default=50,
+        default=30,
         help="Minimum discount percent to include.",
     )
     args = parser.parse_args()
