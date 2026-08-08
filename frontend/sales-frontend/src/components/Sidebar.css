@@ -18,11 +18,20 @@
 }
 
 .sidebar-item {
-  padding: 6px 10px;
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
   border-radius: 8px;
   font-size: 13px;
   color: #9ca3af;
   cursor: pointer;
+  border: none;
+  background: transparent;
+  text-align: left;
+}
+
+.sidebar-item:hover {
+  background: #111827;
 }
 
 .sidebar-item.active {
@@ -34,4 +43,3 @@
   font-size: 12px;
   color: #9ca3af;
 }
-

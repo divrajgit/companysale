@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidebar.css";
 
 const items = [
@@ -15,26 +15,30 @@ const items = [
 ];
 
 export const Sidebar: React.FC = () => {
+  const [activeItem, setActiveItem] = useState("Usage");
+
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <div className="team-name">cistekai-dev’s Team</div>
+        <div className="team-name">CompanySale Team</div>
       </div>
       <nav>
         {items.map(item => (
-          <div
+          <button
             key={item}
-            className={`sidebar-item ${item === "Usage" ? "active" : ""}`}
+            type="button"
+            className={`sidebar-item ${item === activeItem ? "active" : ""}`}
+            onClick={() => setActiveItem(item)}
+            aria-current={item === activeItem ? "page" : undefined}
           >
             {item}
-          </div>
+          </button>
         ))}
       </nav>
       <div className="sidebar-footer">
-        <div className="user-email">cistekai-dev</div>
-        <div className="user-email-sub">hi@cistekai.com</div>
+        <div className="user-email">support@companysale.com</div>
+        <div className="user-email-sub">CompanySale dashboard</div>
       </div>
     </aside>
   );
 };
-
