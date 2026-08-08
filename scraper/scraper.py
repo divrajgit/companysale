@@ -100,6 +100,12 @@ def run(
         ]
 
     write_all_sites_output(output_dir, data_dir, all_items)
+
+    if not (data_dir / "all_sites.json").exists():
+        save_json(data_dir / "all_sites.json", {"items": all_items})
+    if not (output_dir / "sale_data.json").exists():
+        save_json(output_dir / "sale_data.json", {"items": all_items})
+
     return all_items
 
 
