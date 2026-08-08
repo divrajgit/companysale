@@ -55,7 +55,9 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/sales-frontend/dist
+          path: |
+            frontend/sales-frontend/dist
+            frontend/sales-frontend/public
 
   deploy:
     if: github.ref == 'refs/heads/develop'
