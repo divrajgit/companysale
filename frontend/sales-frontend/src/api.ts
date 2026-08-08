@@ -16,5 +16,9 @@ export const fetchSaleItems = () =>
       return payload.items;
     }
 
+    if (payload && Array.isArray(payload.data)) {
+      return payload.data;
+    }
+
     return [];
   });

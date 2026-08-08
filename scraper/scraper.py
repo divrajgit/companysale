@@ -1,6 +1,5 @@
 import argparse
 from pathlib import Path
-from typing import Any
 
 import requests
 
@@ -64,8 +63,9 @@ def write_all_sites_output(output_dir: Path | str, data_dir: Path | str, all_ite
     output_dir.mkdir(parents=True, exist_ok=True)
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    save_json(output_dir / "sale_data.json", {"items": all_items})
-    save_json(data_dir / "all_sites.json", {"items": all_items})
+    payload = {"items": all_items}
+    save_json(output_dir / "sale_data.json", payload)
+    save_json(data_dir / "all_sites.json", payload)
 
 
 def run(
@@ -86,22 +86,7 @@ def run(
         write_site_outputs(output_dir, data_dir, site["key"], items)
         all_items.extend(items)
 
-    if not all_items:
-        fallback_html = fetch_html("https://www.thebodyshop.com.au/pages/offers")
-        fallback_items = parse_thebodyshop(fallback_html, min_discount=min_discount, site_url="https://www.thebodyshop.com.au/pages/offers")
-        for item in fallback_items:
-            item["site_name"] = "The Body Shop AU"
-            item["site_key"] = "thebodyshop"
-        all_items = fallback_items
-        write_site_outputs(output_dir, data_dir, "thebodyshop", all_items)
-
     write_all_sites_output(output_dir, data_dir, all_items)
-
-    if not (data_dir / "all_sites.json").exists():
-        save_json(data_dir / "all_sites.json", {"items": all_items})
-    if not (output_dir / "sale_data.json").exists():
-        save_json(output_dir / "sale_data.json", {"items": all_items})
-
     return all_items
 
 

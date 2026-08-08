@@ -1,11 +1,2992 @@
 {
-    "items":  [
-                  {
-                      "name":  "Coconut Body Butter",
-                      "old_price":  30.0,
-                      "new_price":  12.0,
-                      "discount_percent":  60.0,
-                      "url":  "https://www.thebodyshop.com.au/product/coconut-body-butter"
-                  }
-              ]
+  "items": [
+    {
+      "name": "White Musk R Eau De Parfum",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-musk-r-eau-de-parfum",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sweet On You",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sweet-on-you",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-tea-elderflower",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Back In Stock",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/back-in-stock",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Moisturisers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-moisturisers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Butters",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-butters",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Yogurts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-yogurts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Lotions",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-lotions",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Massage Body Oils",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/massage-body-oils",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Wash Scrubs",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-wash-scrubs",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shower Gels",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shower-gels",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Scrubs",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-scrubs",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Soaps",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/soaps",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hand Foot Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hand-foot-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hand Moisturisers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hand-moisturisers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Foot Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/foot-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Accessories Tools",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/accessories-tools",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Care Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-care-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moisturisers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moisturisers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Serums Essences",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/serums-essences",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eye Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eye-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Lip Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/lip-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face Masks",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face-masks",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Cleansers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/cleansers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Toners",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/toners",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Exfoliators Peels",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/exfoliators-peels",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Beauty Tools",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/beauty-tools",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Oily Blemish Prone Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/oily-blemish-prone-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dry Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dry-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Combination Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/combination-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sensitive Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sensitive-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Normal Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/normal-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hydrating Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hydrating-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Anti Wrinkle Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/anti-wrinkle-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Pigmentation Dark Spot Correctors",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/pigmentation-dark-spot-correctors",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Blackhead Treatments Pore Minimising Skincare",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/blackhead-treatments-pore-minimising-skincare",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Products For Redness",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-products-for-redness",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Anti Pollution Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/anti-pollution-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Products For Blemishes Congestion",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-products-for-blemishes-congestion",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare For Excess Oil Shine Control",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-for-excess-oil-shine-control",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin E",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-e",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin C",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-c",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hyaluronic Acid Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hyaluronic-acid-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Aloe",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/aloe",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Skincare",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shea-skincare",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tea Tree",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tea-tree",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Edelweiss",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/edelweiss",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Salicylic Acid Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/salicylic-acid-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Charcoal Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/charcoal-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shampoo",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shampoo",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Conditioner",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/conditioner",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair Treatments",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair-treatments",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Frizz Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/frizz-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dry Hair Scalp",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dry-hair-scalp",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Oily Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/oily-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Damage Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/damage-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Normal Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/normal-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Ginger",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/ginger",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moringa Skin Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moringa-skin-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Banana Hair Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/banana-hair-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Haircare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/haircare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Haircare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/haircare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Mists",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-mists",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eau De Parfum",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eau-de-parfum",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eau De Toilette",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eau-de-toilette",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Deodorants",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/deodorants",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance For Her",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-for-her",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance For Him",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-for-him",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Black Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/black-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Full Flowers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/full-flowers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Bath And Body Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/bath-and-body-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gift Bags And Boxes",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gift-bags-and-boxes",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "The Body Shop Gift Card",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/the-body-shop-gift-card",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts For Her",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-for-her",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts For Him",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-for-him",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 20",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-20",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 70",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-70",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 100",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-100",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Bestsellers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/bestsellers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Bestsellers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/bestsellers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Most Loved",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/most-loved",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Limited Edition",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/limited-edition",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Back In Stock",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/back-in-stock",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Edelweiss",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/edelweiss",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin E",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-e",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin C",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-c",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tea Tree",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tea-tree",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Seaweed",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/seaweed",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Aloe Range",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/aloe-range",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Camomile",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/camomile",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-tea-elderflower",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hemp",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hemp",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Butter",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shea-butter",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "British Rose",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/british-rose",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Ginger",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/ginger",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Banana Hair Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/banana-hair-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moringa Skin Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moringa-skin-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Maca Root",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/maca-root",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Full Flowers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/full-flowers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sweet On You",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sweet-on-you",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk R Eau De Parfum",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-musk-r-eau-de-parfum",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sweet On You",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sweet-on-you",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-tea-elderflower",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Back In Stock",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/back-in-stock",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Butters",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-butters",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Yogurts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-yogurts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Lotions",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-lotions",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Massage Body Oils",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/massage-body-oils",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shower Gels",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shower-gels",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Scrubs",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-scrubs",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Soaps",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/soaps",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hand Moisturisers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hand-moisturisers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Foot Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/foot-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Accessories Tools",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/accessories-tools",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Care Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-care-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moisturisers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moisturisers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Serums Essences",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/serums-essences",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eye Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eye-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Lip Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/lip-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face Masks",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face-masks",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Cleansers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/cleansers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Toners",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/toners",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Exfoliators Peels",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/exfoliators-peels",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Beauty Tools",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/beauty-tools",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Oily Blemish Prone Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/oily-blemish-prone-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dry Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dry-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Combination Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/combination-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sensitive Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sensitive-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Normal Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/normal-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hydrating Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hydrating-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Anti Wrinkle Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/anti-wrinkle-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Pigmentation Dark Spot Correctors",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/pigmentation-dark-spot-correctors",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Blackhead Treatments Pore Minimising Skincare",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/blackhead-treatments-pore-minimising-skincare",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Products For Redness",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-products-for-redness",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Anti Pollution Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/anti-pollution-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Skin",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-skin",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Products For Blemishes Congestion",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-products-for-blemishes-congestion",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare For Excess Oil Shine Control",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-for-excess-oil-shine-control",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin E",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-e",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin C",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-c",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hyaluronic Acid Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hyaluronic-acid-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Aloe",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/aloe",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Skincare",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shea-skincare",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tea Tree",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tea-tree",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Edelweiss",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/edelweiss",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Salicylic Acid Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/salicylic-acid-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Charcoal Skincare Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/charcoal-skincare-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Face",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/face",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shampoo",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shampoo",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Conditioner",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/conditioner",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair Treatments",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair-treatments",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Frizz Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/frizz-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dry Hair Scalp",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dry-hair-scalp",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Oily Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/oily-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Damage Prone Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/damage-prone-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dull Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dull-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Normal Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/normal-hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Ginger",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/ginger",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moringa Skin Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moringa-skin-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Banana Hair Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/banana-hair-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hair",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hair",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Haircare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/haircare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Haircare Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/haircare-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Body Mists",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/body-mists",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eau De Parfum",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eau-de-parfum",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Eau De Toilette",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/eau-de-toilette",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Deodorants",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/deodorants",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance For Her",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-for-her",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance For Him",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-for-him",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Black Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/black-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Full Flowers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/full-flowers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Bath And Body Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/bath-and-body-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Skincare Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/skincare-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Fragrance Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/fragrance-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gift Bags And Boxes",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gift-bags-and-boxes",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "The Body Shop Gift Card",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/the-body-shop-gift-card",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts For Her",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-for-her",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts For Him",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-for-him",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 20",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-20",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 70",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-70",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Gifts Under 100",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/gifts-under-100",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "New",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/new",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Bestsellers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/bestsellers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Most Loved",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/most-loved",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Limited Edition",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/limited-edition",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Back In Stock",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/back-in-stock",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sets Bundles",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sets-bundles",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Edelweiss",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/edelweiss",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin E",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-e",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vitamin C",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vitamin-c",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tea Tree",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tea-tree",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Seaweed",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/seaweed",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Aloe Range",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/aloe-range",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Camomile",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/camomile",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Vanilla",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/vanilla",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-tea-elderflower",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/dewberry",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Hemp",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/hemp",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Butter",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/shea-butter",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "British Rose",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/british-rose",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Ginger",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/ginger",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Banana Hair Products",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/banana-hair-products",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Jamaican Black Castor Oil",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/jamaican-black-castor-oil",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Moringa Skin Care",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/moringa-skin-care",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Musk",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-musk",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Maca Root",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/maca-root",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Full Flowers",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/full-flowers",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Tender Tonka",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/tender-tonka",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Sweet On You",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/sweet-on-you",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Ultimate Winter Moisture Bundle",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/ultimate-winter-moisture-bundle",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Spa Of The World",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/spa-of-the-world",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "3 For 15 Sheet Masks",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/3-for-15-sheet-masks",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "3 For 69 Jumbo Haircare",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/3-for-69-jumbo-haircare",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Clearance",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/clearance",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "View All Gifts",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/view-all-gifts",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Essentials Gift Set 1047583",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/shea-essentials-gift-set-1047583",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Essentials Gift Set 1047583",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/shea-essentials-gift-set-1047583",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry Essentials Gift Set 1047608",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/dewberry-essentials-gift-set-1047608",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Dewberry Essentials Gift Set 1047608",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/dewberry-essentials-gift-set-1047608",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Mini Gift Box 1047580",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/shea-mini-gift-box-1047580",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Shea Mini Gift Box 1047580",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/shea-mini-gift-box-1047580",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Strawberry Treats 1047573",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/strawberry-treats-1047573",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "Strawberry Treats 1047573",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/strawberry-treats-1047573",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "British Rose Treats 1047579",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/british-rose-treats-1047579",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "British Rose Treats 1047579",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/british-rose-treats-1047579",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Essentials Gift Set 1047604",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-essentials-gift-set-1047604",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Essentials Gift Set 1047604",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-essentials-gift-set-1047604",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/collections/white-tea-elderflower",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Body Butter 200Ml 1047567",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-body-butter-200ml-1047567",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Body Butter 200Ml 1047567",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-body-butter-200ml-1047567",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Shower Gel 1047566",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-shower-gel-1047566",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Shower Gel 1047566",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-shower-gel-1047566",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Body Yogurt 200Ml 1047568",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-body-yogurt-200ml-1047568",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Body Yogurt 200Ml 1047568",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-body-yogurt-200ml-1047568",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Fragrance Mist 100Ml 1047570",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-fragrance-mist-100ml-1047570",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Fragrance Mist 100Ml 1047570",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-fragrance-mist-100ml-1047570",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Essentials Gift Set 1047604",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-essentials-gift-set-1047604",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Essentials Gift Set 1047604",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-essentials-gift-set-1047604",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Fragrance Routine",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-fragrance-routine",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "White Tea Elderflower Fragrance Routine",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 30.0,
+      "url": "https://www.thebodyshop.com.au/products/white-tea-elderflower-fragrance-routine",
+      "site_name": "The Body Shop AU",
+      "site_key": "thebodyshop"
+    },
+    {
+      "name": "META NAME",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "ROBOTS",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "CONTENT",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "NOINDEX",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "NOFOLLOW",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "X-UA-Compatible",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "La-Warry-ares-Like-n",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "SWUDNSAI",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "Request",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    },
+    {
+      "name": "Incapsula",
+      "old_price": null,
+      "new_price": null,
+      "discount_percent": 50.0,
+      "url": "https://www.coles.com.au/on-special?filter_Special=halfprice&page=1",
+      "site_name": "Coles Half Price Specials",
+      "site_key": "coles"
+    }
+  ]
 }
