@@ -1,11 +1,13 @@
 {
   "items": [
     {
-      "name": "Coconut Body Butter",
-      "old_price": 30.0,
-      "new_price": 12.0,
-      "discount_percent": 60.0,
-      "url": "https://www.thebodyshop.com.au/product/coconut-body-butter"
+      "name": "Sample discounted item",
+      "old_price": 100.0,
+      "new_price": 70.0,
+      "discount_percent": 30.0,
+      "url": "https://example.com/sample",
+      "site_name": "Fallback",
+      "site_key": "fallback"
     }
   ]
 }

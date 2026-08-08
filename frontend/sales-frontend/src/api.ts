@@ -5,7 +5,7 @@ const client = axios.create({
 });
 
 export const fetchSaleItems = () =>
-  client.get("./data/sale_data.json").then((response) => {
+  client.get(`./data/sale_data.json?ts=${Date.now()}`).then((response) => {
     const payload = response.data;
 
     if (Array.isArray(payload)) {
