@@ -25,7 +25,10 @@ function App() {
   useEffect(() => {
     fetchSaleItems()
       .then((data) => {
-        setItems(data);
+        setItems(Array.isArray(data) ? data : []);
+      })
+      .catch(() => {
+        setItems([]);
       })
       .finally(() => setLoading(false));
   }, []);
