@@ -86,19 +86,6 @@ def run(
         write_site_outputs(output_dir, data_dir, site["key"], items)
         all_items.extend(items)
 
-    if not all_items:
-        all_items = [
-            {
-                "name": "Sample discounted item",
-                "old_price": 100.0,
-                "new_price": 70.0,
-                "discount_percent": 30.0,
-                "url": "https://example.com/sample",
-                "site_name": "Fallback",
-                "site_key": "fallback",
-            }
-        ]
-
     write_all_sites_output(output_dir, data_dir, all_items)
 
     if not (data_dir / "all_sites.json").exists():
