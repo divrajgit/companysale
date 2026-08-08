@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const client = axios.create({
-  baseURL: import.meta.env.BASE_URL || "/",
+  baseURL: ".",
 });
 
 export const fetchSaleItems = () =>
-  client.get(`${import.meta.env.BASE_URL}data/sale_data.json`).then((response) => {
+  client.get("./data/sale_data.json").then((response) => {
     const payload = response.data;
 
     if (Array.isArray(payload)) {
