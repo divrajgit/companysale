@@ -1,31 +1,36 @@
 import React from "react";
 
-export const ProjectsTable = ({ projects }: any) => (
+export const ProjectsTable = ({ items }: any) => (
   <div className="card">
-    <div className="card-title">Breakdown by project</div>
-    <div className="card-subtitle">{projects.length} projects active</div>
+    <div className="card-title">Discounted products</div>
+    <div className="card-subtitle">Products found with a strong markdown</div>
 
     <table className="projects-table">
       <thead>
         <tr>
-          <th>Project</th>
-          <th>CPU</th>
-          <th>Memory</th>
-          <th>Egress</th>
+          <th>Product</th>
+          <th>Old price</th>
+          <th>New price</th>
+          <th>Discount</th>
+          <th>Link</th>
         </tr>
       </thead>
 
       <tbody>
-        {projects.map((p: any) => (
-          <tr key={p.name}>
-            <td>{p.name}</td>
-            <td>{p.cpuCores} cores</td>
-            <td>{p.memoryMiB} MiB</td>
-            <td>{p.egressKibPerSec} KiB/s</td>
+        {items.map((item: any) => (
+          <tr key={item.url}>
+            <td>{item.name}</td>
+            <td>${item.old_price.toFixed(2)}</td>
+            <td>${item.new_price.toFixed(2)}</td>
+            <td>{item.discount_percent}%</td>
+            <td>
+              <a href={item.url} target="_blank" rel="noreferrer">
+                View
+              </a>
+            </td>
           </tr>
         ))}
       </tbody>
     </table>
   </div>
 );
-

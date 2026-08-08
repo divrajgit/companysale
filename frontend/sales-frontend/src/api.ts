@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const client = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: ".",
 });
 
-export const fetchUsage = () => client.get("/usage").then(r => r.data);
-export const fetchProjects = () => client.get("/projects").then(r => r.data.projects);
-
+export const fetchSaleItems = () =>
+  client.get("./data/sale_data.json").then((response) => response.data.items || []);
