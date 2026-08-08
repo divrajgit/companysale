@@ -2,7 +2,11 @@ name: Deploy sale dashboard to GitHub Pages
 
 on:
   push:
+<<<<<<< HEAD
     branches: ["main", "develop"]
+=======
+    branches: ["develop"]
+>>>>>>> origin/develop
   workflow_dispatch:
 
 permissions:
