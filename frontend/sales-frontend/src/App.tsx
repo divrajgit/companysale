@@ -1,23 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { Sidebar } from "./components/Sidebar";
-import { CurrentCycleCard, LiveUsageCard } from "./components/UsageCards";
 import { ProjectsTable } from "./components/ProjectsTable";
-import { fetchUsage, fetchProjects } from "./api";
+import { fetchSaleItems } from "./api";
 
 function App() {
-  const [usage, setUsage] = useState<any>(null);
-  const [projects, setProjects] = useState<any[]>([]);
+  const [items, setItems] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([fetchUsage(), fetchProjects()]).then(([u, p]) => {
-      setUsage(u);
-      setProjects(p);
-      setLoading(false);
-    });
+    fetchSaleItems()
+      .then((data) => {
+        setItems(data);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
-  if (loading || !usage) return <div className="loading">Loading…</div>;
+  if (loading) return <div className="loading">Loading�</div>;
 
   return (
     <div className="app">
@@ -25,22 +23,23 @@ function App() {
       <main className="main">
         <header className="main-header">
           <div>
-            <h1>Usage</h1>
-            <p>Current cycle counters and what your plan includes.</p>
+            <h1>The Body Shop Sale Dashboard</h1>
+            <p>Live snapshot of discounted products scraped from the site.</p>
           </div>
           <div className="header-actions">
-            <button className="icon-button">⟳</button>
-            <button className="primary-button">+ New</button>
+            <button className="icon-button">?</button>
           </div>
         </header>
 
         <section className="cards-row">
-          <CurrentCycleCard data={usage.currentCycle} />
-          <LiveUsageCard data={usage.liveResourceUsage} />
+          <div className="card">
+            <div className="card-title">Sale items</div>
+            <div className="card-subtitle">{items.length} items with 50%+ discount</div>
+          </div>
         </section>
 
         <section>
-          <ProjectsTable projects={projects} />
+          <ProjectsTable items={items} />
         </section>
       </main>
     </div>
@@ -48,4 +47,3 @@ function App() {
 }
 
 export default App;
-
