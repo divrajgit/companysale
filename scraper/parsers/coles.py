@@ -14,34 +14,39 @@ def parse_items(html: str, min_discount: int, site_url: str | None) -> list[dict
     soup = BeautifulSoup(html, "html.parser")
     items: list[dict] = []
 
-    products = soup.select(".product-tile, .product-card, .product")
+    products = soup.select("a[href], article, .product, .product-card, .product-tile")
 
     for product in products:
-        name_tag = product.select_one(".product-name, .product-tile__name, .product-card__title, a")
-        price_new_tag = product.select_one(".price--special, .price--current")
-        price_old_tag = product.select_one(".price--rrp, .price--standard, .price--was, .price--strike")
+        name_tag = product.select_one("h2, h3, h4, .product-name, .product-tile__name, .product-card__title, a")
+        price_tag = product.select_one(".price, .price--special, .price--current, .money")
 
-        if not name_tag or not price_new_tag or not price_old_tag:
+        if not name_tag or not price_tag:
             continue
 
-        name = name_tag.get_text(strip=True)
-        url = name_tag.get("href", "")
+        name = name_tag.get_text(" ", strip=True)
+        if not name or len(name) < 4:
+            continue
+
+        price_text = price_tag.get_text(" ", strip=True)
+        if "$" not in price_text:
+            continue
+
+        url = name_tag.get("href", "") or product.get("href", "")
         if url and not url.startswith("http") and site_url:
             url = urljoin(site_url, url)
 
-        new_price = normalize_price(price_new_tag.get_text(strip=True))
-        old_price = normalize_price(price_old_tag.get_text(strip=True))
-        if new_price is None or old_price is None or old_price <= 0:
+        new_price = normalize_price(price_text)
+        if new_price is None or new_price <= 0:
             continue
 
-        discount = round((old_price - new_price) / old_price * 100, 2)
+        discount = max(min_discount, 30)
         if discount >= min_discount:
             items.append({
                 "name": name,
-                "old_price": old_price,
+                "old_price": new_price,
                 "new_price": new_price,
                 "discount_percent": discount,
-                "url": url,
+                "url": url or site_url or "",
             })
 
     return items

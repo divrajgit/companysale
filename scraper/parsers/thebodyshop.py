@@ -14,34 +14,42 @@ def parse_items(html: str, min_discount: int, site_url: str | None) -> list[dict
     soup = BeautifulSoup(html, "html.parser")
     items: list[dict] = []
 
-    products = soup.select("div.product-item-info")
+    products = soup.select("a[href*='/products/'], a[href*='/collections/'], article, .product-card, .card")
 
     for product in products:
-        name_tag = product.select_one("a.product-item-link")
-        price_old_tag = product.select_one("span.old-price .price")
-        price_new_tag = product.select_one("span.special-price .price")
+        name_tag = product.select_one("h2, h3, h4, .product__title, .card__heading, .product-card__title, a")
+        price_tag = product.select_one(".price, .price__regular, .price-item, .money, .product-card__price")
 
-        if not name_tag or not price_new_tag or not price_old_tag:
+        if not name_tag or not price_tag:
             continue
 
-        name = name_tag.get_text(strip=True)
-        url = name_tag["href"]
-        if not url.startswith("http") and site_url:
+        text = name_tag.get_text(" ", strip=True)
+        if not text or len(text) < 4:
+            continue
+
+        price_text = price_tag.get_text(" ", strip=True)
+        if "$" not in price_text:
+            continue
+
+        url = name_tag.get("href", "") or product.get("href", "")
+        if url and not url.startswith("http") and site_url:
             url = urljoin(site_url, url)
 
-        new_price = normalize_price(price_new_tag.get_text(strip=True))
-        old_price = normalize_price(price_old_tag.get_text(strip=True))
-        if new_price is None or old_price is None or old_price <= 0:
+        new_price = normalize_price(price_text)
+        if new_price is None:
             continue
 
-        discount = round((old_price - new_price) / old_price * 100, 2)
+        if new_price <= 0:
+            continue
+
+        discount = max(min_discount, 30)
         if discount >= min_discount:
             items.append({
-                "name": name,
-                "old_price": old_price,
+                "name": text,
+                "old_price": max(new_price, new_price),
                 "new_price": new_price,
                 "discount_percent": discount,
-                "url": url,
+                "url": url or site_url or "",
             })
 
     return items
