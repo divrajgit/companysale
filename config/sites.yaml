@@ -8,7 +8,7 @@ sites:
     url: "https://www.supercheapauto.com.au/sale"
   - name: "Automotive Superstore"
     key: "automotivesuperstore"
-    url: "https://automotivesuperstore.com.au/?filterVid=28688"
+    url: "https://automotivesuperstore.com.au/"
   - name: "Woolworths Half Price Specials"
     key: "woolworths"
     url: "https://www.woolworths.com.au/shop/browse/specials/half-price"
