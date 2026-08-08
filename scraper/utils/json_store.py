@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 from typing import Any, List
 
-DATA_DIR = Path("data")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_ROOT / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 def load_json(path: str | Path) -> Any:
@@ -26,6 +27,7 @@ def save_json(path: str | Path, data: Any) -> None:
     Saves Python object to JSON file.
     """
     path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 

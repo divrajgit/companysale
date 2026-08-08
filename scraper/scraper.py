@@ -20,7 +20,9 @@ PARSERS = {
     "coles": parse_coles,
 }
 
-DEFAULT_OUTPUT_DIR = Path("frontend/sales-frontend/public/data")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_OUTPUT_DIR = REPO_ROOT / "frontend" / "sales-frontend" / "public" / "data"
+DEFAULT_DATA_DIR = REPO_ROOT / "data"
 
 
 def fetch_html(url: str) -> str:
@@ -46,19 +48,45 @@ def scrape_site(site: dict, min_discount: int = 30) -> list[dict]:
     return items
 
 
-def run(output_dir: Path | str = DEFAULT_OUTPUT_DIR, min_discount: int = 30) -> list[dict]:
+def write_outputs(
+    output_dir: Path | str,
+    data_dir: Path | str,
+    site_key: str,
+    items: list[dict],
+    all_items: list[dict] | None = None,
+) -> None:
     output_dir = Path(output_dir)
+    data_dir = Path(data_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    data_dir.mkdir(parents=True, exist_ok=True)
 
-    sites = load_sites("config/sites.yaml")
+    save_json(output_dir / f"{site_key}.json", items)
+    save_json(data_dir / f"{site_key}.json", items)
+
+    if all_items is not None:
+        save_json(output_dir / "sale_data.json", {"items": all_items})
+        save_json(data_dir / "all_sites.json", {"items": all_items})
+
+
+def run(
+    output_dir: Path | str = DEFAULT_OUTPUT_DIR,
+    min_discount: int = 30,
+    data_dir: Path | str = DEFAULT_DATA_DIR,
+) -> list[dict]:
+    output_dir = Path(output_dir)
+    data_dir = Path(data_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    sites = load_sites(str(REPO_ROOT / "config" / "sites.yaml"))
     all_items: list[dict] = []
 
     for site in sites:
         items = scrape_site(site, min_discount=min_discount)
-        save_json(output_dir / f"{site['key']}.json", items)
+        write_outputs(output_dir, data_dir, site["key"], items, all_items=None)
         all_items.extend(items)
 
-    save_json(output_dir / "sale_data.json", {"items": all_items})
+    write_outputs(output_dir, data_dir, "sale_data", {"items": all_items}, all_items=all_items)
     return all_items
 
 
