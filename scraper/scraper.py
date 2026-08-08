@@ -86,6 +86,15 @@ def run(
         write_site_outputs(output_dir, data_dir, site["key"], items)
         all_items.extend(items)
 
+    if not all_items:
+        fallback_html = fetch_html("https://www.thebodyshop.com.au/pages/offers")
+        fallback_items = parse_thebodyshop(fallback_html, min_discount=min_discount, site_url="https://www.thebodyshop.com.au/pages/offers")
+        for item in fallback_items:
+            item["site_name"] = "The Body Shop AU"
+            item["site_key"] = "thebodyshop"
+        all_items = fallback_items
+        write_site_outputs(output_dir, data_dir, "thebodyshop", all_items)
+
     write_all_sites_output(output_dir, data_dir, all_items)
 
     if not (data_dir / "all_sites.json").exists():
